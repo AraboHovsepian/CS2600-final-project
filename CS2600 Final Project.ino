@@ -10,11 +10,11 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // Wifi
-const char *ssid = "";
-const char *password = "";
+const char *ssid = ""; // Your Wifi SSID
+const char *password = ""; // Your Wifi Password
 
 // MQTT Broker
-const char *mqtt_broker = "192.168.1.123";
+const char *mqtt_broker = ""; // Your local IP Address
 const char *topicSend = "esp32/send";
 const char *topicReceive = "esp32/Receive";
 const int mqtt_port = 1883;
